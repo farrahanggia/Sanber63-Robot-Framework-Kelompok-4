@@ -1,7 +1,6 @@
 # Sanber63-Robot-Framework-Kelompok-4
 
 ## Nama Anggota Kelompok 4
-- **Nama** - [GitHub](https://github.com/)
 - **Anggi** - [farrahanggia](https://github.com/farrahanggia)
 - **Aula HM** - [aulahani](https://github.com/aulahani)
 - **Bahtiar Eka** - [bahtiareka96](https://github.com/bahtiareka96)
