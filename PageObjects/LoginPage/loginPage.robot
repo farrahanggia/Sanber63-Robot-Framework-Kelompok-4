@@ -1,7 +1,7 @@
 *** Settings ***
 Resource         ../base.robot
 Resource         ../HomePage/homePage.robot
-Variables        login-page-locators.yaml
+Variables        login-page-locators.yml
 
 *** Variables ***
 ${VALID_USERNAME}       support@ngendigital.com
