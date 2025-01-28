@@ -1,5 +1,0 @@
-search_menu: //android.widget.Button[@resource-id="com.example.myapplication:id/search_flight"]
-validate_page: //android.widget.TextView[@resource-id="com.example.myapplication:id/enterFlight"]
-form_input: //android.widget.EditText[@resource-id="com.example.myapplication:id/flight_number"]
-search_btn: //android.widget.Button[@resource-id="com.example.myapplication:id/searchFlight"]
-schedule_data: //android.widget.TextView[@text="Schedule"]
