@@ -1,0 +1,2 @@
+app_icon_book:      //android.widget.Button[@resource-id="com.example.myapplication:id/book"]
+page_form_round: //android.widget.TextView[@resource-id="com.example.myapplication:id/textView3"]
