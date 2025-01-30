@@ -1,6 +1,7 @@
 *** Settings ***
 Documentation    Round Page Key Related
 Variables    round-page-locators.yaml
+Variables    round-page-locators.yaml
 Library    AppiumLibrary
 
 *** Keywords ***
@@ -12,93 +13,95 @@ Verify Book Flight Screen Appears
     Wait Until Element Is Visible    locator=${page_form_round}
 
 Click Round Trip Button On Book Flight Screen
-    CLick Element     locator=//android.support.v7.app.ActionBar.Tab[@content-desc="Round Trip"]
+    CLick Element     locator=${round_trip_button}
 
 Click From City Combobox
-    Wait Until Element Is Visible    locator=//android.widget.Spinner[@resource-id="com.example.myapplication:id/spinnerFrom"]
-    Click Element                    locator=//android.widget.Spinner[@resource-id="com.example.myapplication:id/spinnerFrom"]
+    Wait Until Element Is Visible    locator=${wait_element_city}
+    Click Element                    locator=${wait_element_city}
 
 
 Choose Toronto City
-    Wait Until Element Is Visible    locator=//android.widget.TextView[@resource-id="android:id/text1" and @text="Toronto"]
-    Click Element                    locator=//android.widget.TextView[@resource-id="android:id/text1" and @text="Toronto"]
+    Wait Until Element Is Visible    locator=${toronto_city}
+    Click Element                    locator=${toronto_city}
+
 
 
 Verify Toronto City Appears
-    Wait Until Element Is Visible    locator=//android.widget.TextView[@resource-id="android:id/text1" and @text="Toronto"]
+    Wait Until Element Is Visible    locator=${toronto_city}
 
 Click To City Combobox
-    Wait Until Element Is Visible    locator=//android.widget.Spinner[@resource-id="com.example.myapplication:id/spinnerTo"]
-    Click Element                    locator=//android.widget.Spinner[@resource-id="com.example.myapplication:id/spinnerTo"]
+    Wait Until Element Is Visible    locator=${otawa_combobox}
+    Click Element                    locator=${otawa_combobox}
 
 Choose 'Otawa' City
-    Wait Until Element Is Visible    locator=//android.widget.TextView[@resource-id="android:id/text1" and @text="Ottawa"]
-    Click Element                    locator=//android.widget.TextView[@resource-id="android:id/text1" and @text="Ottawa"]
+    Wait Until Element Is Visible    locator=${otawa_city}
+    Click Element                    locator=${otawa_city}
 
 
 Verify 'Otawa' City Appears
-    Wait Until Element Is Visible    locator=//android.widget.TextView[@resource-id="android:id/text1" and @text="Ottawa"]
+    Wait Until Element Is Visible    locator=${otawa_city}
 
 
 Click Class Combobox
-    Wait Until Element Is Visible    locator=//android.widget.Spinner[@resource-id="com.example.myapplication:id/spinnerClass"]
-    Click Element                    locator=//android.widget.Spinner[@resource-id="com.example.myapplication:id/spinnerClass"]
+    Wait Until Element Is Visible    locator=${class_combobox}
+    Click Element                    locator=${class_combobox}
 
 Choose 'Business' Class
-    Wait Until Element Is Visible    locator=//android.widget.TextView[@resource-id="android:id/text1" and @text="Business"]
-    Click Element                    locator=//android.widget.TextView[@resource-id="android:id/text1" and @text="Business"]
+    Wait Until Element Is Visible    locator=${class_business}
+    Click Element                    locator=${class_business}
 
 Verify 'Business' Class Appears
-    Wait Until Element Is Visible    locator=//android.widget.TextView[@resource-id="android:id/text1" and @text="Business"]
+    Wait Until Element Is Visible    locator=${class_business}
 
 Click Start Date Picker
-    Wait Until Element Is Visible    locator=//android.widget.TextView[@resource-id="com.example.myapplication:id/textStartDate"]
-    Click Element                    locator=//android.widget.TextView[@resource-id="com.example.myapplication:id/textStartDate"]
+    Wait Until Element Is Visible    locator=${start_date_picker}
+    Click Element                    locator=${start_date_picker}
+
 
 Choose '8/1/2019' Date
-    Wait Until Element Is Visible    locator=//android.view.View[@resource-id="android:id/month_view"]
+    Wait Until Element Is Visible    locator=${verify_date_picker}
 
 Click OK Button
-    Wait Until Element Is Visible    locator=//android.widget.Button[@resource-id="android:id/button1"]
-    Click Element                    locator=//android.widget.Button[@resource-id="android:id/button1"]
+    Wait Until Element Is Visible    locator=${ok_button}
+    Click Element                    locator=${ok_button}
 
 Verify Today Date Appears
-    Wait Until Element Is Visible    locator=//android.widget.TextView[@resource-id="com.example.myapplication:id/textStartDate"]
+    Wait Until Element Is Visible    locator=${end_date_picker}
 
 Click End Date Picker
-    Wait Until Element Is Visible    locator=//android.widget.TextView[@resource-id="com.example.myapplication:id/textEndDate"]
-    Click Element                    locator=//android.widget.TextView[@resource-id="com.example.myapplication:id/textEndDate"]
+    Wait Until Element Is Visible    locator=${end_date_picker}
+    Click Element                    locator=${end_date_picker}
 
 Choose '8/7/2019'
-    Wait Until Element Is Visible    locator=//android.view.View[@resource-id="android:id/month_view"]
-    Click Element                    locator=//android.view.View[@resource-id="android:id/month_view"]
+    Wait Until Element Is Visible    locator=${verify_date_picker}
+    Click Element                    locator=${verify_date_picker}
 
 Click Button OK
-    Wait Until Element Is Visible    locator=//android.widget.Button[@resource-id="android:id/button1"]
-    Click Element                    locator=//android.widget.Button[@resource-id="android:id/button1"]
+    Wait Until Element Is Visible    locator=${ok_button}
+    Click Element                    locator=${ok_button}
 Verify 8/1/2019 Date Appears
-    Wait Until Element Is Visible    locator=//android.widget.TextView[@resource-id="com.example.myapplication:id/textEndDate"]
+    Wait Until Element Is Visible    locator=${end_date_picker}
 
 Click Flight Type Radio Button
-    Wait Until Element Is Visible    locator=//android.widget.RadioButton[@resource-id="com.example.myapplication:id/radioButtonFlight"]
-    Click Element                    locator=//android.widget.RadioButton[@resource-id="com.example.myapplication:id/radioButtonFlight"]
+    Wait Until Element Is Visible    locator=${flight_type_radio_button}
+    Click Element                    locator=${flight_type_radio_button}
 
 
 Click Book
-    Wait Until Element Is Visible    locator=//android.widget.Button[@resource-id="com.example.myapplication:id/book_flight"]
-    Click Element                    locator=//android.widget.Button[@resource-id="com.example.myapplication:id/book_flight"]
+    Wait Until Element Is Visible    locator=${book_flight_button}
+    Click Element                    locator=${book_flight_button}
 
 Verify Book Flight Successfully Confirm Button
-    Wait Until Element Is Visible    locator=//android.widget.ImageView[@resource-id="com.example.myapplication:id/imageView5"]
+    Wait Until Element Is Visible    locator=${verify_book_flight_confirm_button}
     
 
 Click Confirm Button
-    Wait Until Element Is Visible    locator=//android.widget.Button[@resource-id="com.example.myapplication:id/confirm_order"]
-    Click Element                    locator=//android.widget.Button[@resource-id="com.example.myapplication:id/confirm_order"]
+    Wait Until Element Is Visible    locator=${confirm_order_button}
+    Click Element                    locator=${confirm_order_button}
 
 Verify Flight Booked Successfully
-    Wait Until Element Is Visible    locator=//android.widget.CheckedTextView[@resource-id="com.example.myapplication:id/checkedTextView"]
-    Click Element                    locator=//android.widget.CheckedTextView[@resource-id="com.example.myapplication:id/checkedTextView"]
+    Wait Until Element Is Visible    locator=${success_booking_flight}
+    Click Element                    locator=${success_booking_flight}
     
 
 Booking Flight Round Trip

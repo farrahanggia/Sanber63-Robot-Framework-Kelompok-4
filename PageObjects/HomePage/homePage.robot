@@ -1,7 +1,7 @@
 *** Settings ***
 Documentation    Home page keyword related
 Variables        home-page-locators.yaml
-Library    AppiumLibrary
+Library          AppiumLibrary
 
 *** Keywords ***
 Verify Home Screen Appears

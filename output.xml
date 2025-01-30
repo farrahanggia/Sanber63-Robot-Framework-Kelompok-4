@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.2 (Python 3.13.1 on win32)" generated="2025-01-29T17:27:54.945652" rpa="false" schemaversion="5">
+<robot generator="Robot 7.2 (Python 3.13.1 on win32)" generated="2025-01-30T21:42:13.855297" rpa="false" schemaversion="5">
 <suite id="s1" name="Suites" source="C:\SanberCode\Sanber63-Robot-Framework-Kelompok-4\Suites">
 <suite id="s1-s1" name="Booking" source="C:\SanberCode\Sanber63-Robot-Framework-Kelompok-4\Suites\booking.robot">
 <test id="s1-s1-t1" name="User should be able to booking flight" line="17">
@@ -7,12 +7,12 @@
 <kw name="Open Flight Application" owner="base">
 <kw name="Open Application" owner="AppiumLibrary">
 <kw name="Capture Page Screenshot" owner="AppiumLibrary">
-<msg time="2025-01-29T17:27:55.591186" level="FAIL">No application is open</msg>
+<msg time="2025-01-30T21:42:14.410895" level="FAIL">No application is open</msg>
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<status status="FAIL" start="2025-01-29T17:27:55.590924" elapsed="0.006146">No application is open</status>
+<status status="FAIL" start="2025-01-30T21:42:14.410649" elapsed="0.004403">No application is open</status>
 </kw>
-<msg time="2025-01-29T17:27:55.598944" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg time="2025-01-29T17:27:55.600499" level="FAIL">WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Unable to find an active device or emulator with OS 14. The following are available: emulator-5554 (12)
+<msg time="2025-01-30T21:42:14.416474" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg time="2025-01-30T21:42:14.417855" level="FAIL">WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Unable to find an active device or emulator with OS 14. The following are available: emulator-5554 (12)
 Stacktrace:
 UnknownError: An unknown server-side error occurred while processing the command. Original error: Unable to find an active device or emulator with OS 14. The following are available: emulator-5554 (12)
     at getResponseForW3CError (C:\Users\Reza Paramarta\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
@@ -30,13 +30,13 @@ Please check https://appium.io/docs/en/2.1/cli/args/
 | remote_url          | Yes    | Appium server url |
 | alias               | no     | alias             |
 | strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
-<status status="FAIL" start="2025-01-29T17:27:55.229799" elapsed="0.372811">WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Unable to find an active device or emulator with OS 14. The following are available: emulator-5554 (12)
+<status status="FAIL" start="2025-01-30T21:42:14.080925" elapsed="0.338179">WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Unable to find an active device or emulator with OS 14. The following are available: emulator-5554 (12)
 Stacktrace:
 UnknownError: An unknown server-side error occurred while processing the command. Original error: Unable to find an active device or emulator with OS 14. The following are available: emulator-5554 (12)
     at getResponseForW3CError (C:\Users\Reza Paramarta\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
     at asyncHandler (C:\Users\Reza Paramarta\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)</status>
 </kw>
-<status status="FAIL" start="2025-01-29T17:27:55.229573" elapsed="0.373316">WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Unable to find an active device or emulator with OS 14. The following are available: emulator-5554 (12)
+<status status="FAIL" start="2025-01-30T21:42:14.080745" elapsed="0.338656">WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Unable to find an active device or emulator with OS 14. The following are available: emulator-5554 (12)
 Stacktrace:
 UnknownError: An unknown server-side error occurred while processing the command. Original error: Unable to find an active device or emulator with OS 14. The following are available: emulator-5554 (12)
     at getResponseForW3CError (C:\Users\Reza Paramarta\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
@@ -46,7 +46,7 @@ UnknownError: An unknown server-side error occurred while processing the command
 <arg>AND</arg>
 <arg>Login With Valid Data</arg>
 <doc>Executes all the given keywords in a sequence.</doc>
-<status status="FAIL" start="2025-01-29T17:27:55.229310" elapsed="0.373683">WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Unable to find an active device or emulator with OS 14. The following are available: emulator-5554 (12)
+<status status="FAIL" start="2025-01-30T21:42:14.080525" elapsed="0.338970">WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Unable to find an active device or emulator with OS 14. The following are available: emulator-5554 (12)
 Stacktrace:
 UnknownError: An unknown server-side error occurred while processing the command. Original error: Unable to find an active device or emulator with OS 14. The following are available: emulator-5554 (12)
     at getResponseForW3CError (C:\Users\Reza Paramarta\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
@@ -55,18 +55,18 @@ UnknownError: An unknown server-side error occurred while processing the command
 <kw name="Close Flight Application" owner="base" type="TEARDOWN">
 <kw name="Close Application" owner="AppiumLibrary">
 <kw name="Capture Page Screenshot" owner="AppiumLibrary">
-<msg time="2025-01-29T17:27:55.604359" level="FAIL">No application is open</msg>
+<msg time="2025-01-30T21:42:14.420633" level="FAIL">No application is open</msg>
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<status status="FAIL" start="2025-01-29T17:27:55.604169" elapsed="0.001683">No application is open</status>
+<status status="FAIL" start="2025-01-30T21:42:14.420511" elapsed="0.001266">No application is open</status>
 </kw>
-<msg time="2025-01-29T17:27:55.608060" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg time="2025-01-29T17:27:55.609225" level="FAIL">No application is open</msg>
+<msg time="2025-01-30T21:42:14.422948" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg time="2025-01-30T21:42:14.423784" level="FAIL">No application is open</msg>
 <doc>Closes the current application and also close webdriver session.</doc>
-<status status="FAIL" start="2025-01-29T17:27:55.603931" elapsed="0.007279">No application is open</status>
+<status status="FAIL" start="2025-01-30T21:42:14.420368" elapsed="0.004834">No application is open</status>
 </kw>
-<status status="FAIL" start="2025-01-29T17:27:55.603552" elapsed="0.008157">No application is open</status>
+<status status="FAIL" start="2025-01-30T21:42:14.420083" elapsed="0.005502">No application is open</status>
 </kw>
-<status status="FAIL" start="2025-01-29T17:27:55.228177" elapsed="0.384206">Setup failed:
+<status status="FAIL" start="2025-01-30T21:42:14.079783" elapsed="0.346249">Setup failed:
 WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Unable to find an active device or emulator with OS 14. The following are available: emulator-5554 (12)
 Stacktrace:
 UnknownError: An unknown server-side error occurred while processing the command. Original error: Unable to find an active device or emulator with OS 14. The following are available: emulator-5554 (12)
@@ -76,462 +76,20 @@ UnknownError: An unknown server-side error occurred while processing the command
 Also teardown failed:
 No application is open</status>
 </test>
-<status status="FAIL" start="2025-01-29T17:27:54.979514" elapsed="0.636221"/>
+<status status="FAIL" start="2025-01-30T21:42:13.883386" elapsed="0.544341"/>
 </suite>
-<suite id="s1-s2" name="bookRoundTrip" source="C:\SanberCode\Sanber63-Robot-Framework-Kelompok-4\Suites\bookRoundTrip.robot">
-<test id="s1-s2-t1" name="Open Flight App" line="173">
-<kw name="Open Flight Application">
-<kw name="Open Application" owner="AppiumLibrary">
-<arg>remote_url=http://127.0.0.1:4723/wd/hub</arg>
-<arg>platformName=Android</arg>
-<arg>platformVersion=12.0</arg>
-<arg>deviceName=emulator-554</arg>
-<arg>appPackage=com.example.myapplication</arg>
-<arg>appActivity=com.example.myapplication.MainActivity</arg>
-<doc>Opens a new application to given Appium server.
-Capabilities of appium server, Android and iOS,
-Please check https://appium.io/docs/en/2.1/cli/args/
-| *Option*            | *Man.* | *Description*     |
-| remote_url          | Yes    | Appium server url |
-| alias               | no     | alias             |
-| strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
-<status status="PASS" start="2025-01-29T17:27:55.630965" elapsed="32.900220"/>
-</kw>
-<status status="PASS" start="2025-01-29T17:27:55.630665" elapsed="32.901880"/>
-</kw>
-<kw name="Verify Home Screen Appears">
-<kw name="Wait Until Element Is Visible" owner="AppiumLibrary">
-<msg time="2025-01-29T17:28:30.154234" level="INFO">xpath criteria: //android.widget.ImageView[@resource-id="com.example.myapplication:id/imageView4"]</msg>
-<arg>locator=//android.widget.ImageView[@resource-id="com.example.myapplication:id/imageView4"]</arg>
-<doc>Waits until element specified with `locator` is visible.</doc>
-<status status="PASS" start="2025-01-29T17:28:28.536709" elapsed="1.617712"/>
-</kw>
-<status status="PASS" start="2025-01-29T17:28:28.535628" elapsed="1.618916"/>
-</kw>
-<kw name="Click Sign In Button On Home Screen">
-<kw name="Click Element" owner="AppiumLibrary">
-<msg time="2025-01-29T17:28:30.156089" level="INFO">Clicking element '//android.widget.Button[@resource-id="com.example.myapplication:id/login"]'.</msg>
-<msg time="2025-01-29T17:28:30.309842" level="INFO">xpath criteria: //android.widget.Button[@resource-id="com.example.myapplication:id/login"]</msg>
-<arg>locator=//android.widget.Button[@resource-id="com.example.myapplication:id/login"]</arg>
-<doc>Click element identified by `locator`.</doc>
-<status status="PASS" start="2025-01-29T17:28:30.155342" elapsed="0.154629"/>
-</kw>
-<status status="PASS" start="2025-01-29T17:28:30.155029" elapsed="0.155052"/>
-</kw>
-<kw name="Verify Login Screen Appears">
-<kw name="Wait Until Element Is Visible" owner="AppiumLibrary">
-<msg time="2025-01-29T17:28:31.828726" level="INFO">xpath criteria: //android.widget.TextView[@resource-id="com.example.myapplication:id/textView2"]
-xpath criteria: //android.widget.TextView[@resource-id="com.example.myapplication:id/textView2"]</msg>
-<arg>locator=//android.widget.TextView[@resource-id="com.example.myapplication:id/textView2"]</arg>
-<doc>Waits until element specified with `locator` is visible.</doc>
-<status status="PASS" start="2025-01-29T17:28:30.310892" elapsed="1.517977"/>
-</kw>
-<status status="PASS" start="2025-01-29T17:28:30.310516" elapsed="1.518495"/>
-</kw>
-<kw name="Input Username">
-<kw name="Input Text" owner="AppiumLibrary">
-<msg time="2025-01-29T17:28:31.830649" level="INFO">Typing text 'support@ngendigital.com' into text field '//android.widget.EditText[@resource-id="com.example.myapplication:id/username"]'</msg>
-<msg time="2025-01-29T17:28:32.033782" level="INFO">xpath criteria: //android.widget.EditText[@resource-id="com.example.myapplication:id/username"]</msg>
-<arg>locator=//android.widget.EditText[@resource-id="com.example.myapplication:id/username"]</arg>
-<arg>text=support@ngendigital.com</arg>
-<doc>Types the given `text` into text field identified by `locator`.</doc>
-<status status="PASS" start="2025-01-29T17:28:31.829722" elapsed="0.204327"/>
-</kw>
-<status status="PASS" start="2025-01-29T17:28:31.829401" elapsed="0.204978"/>
-</kw>
-<kw name="Input Password">
-<kw name="Input Text" owner="AppiumLibrary">
-<msg time="2025-01-29T17:28:32.038289" level="INFO">Typing text 'abc123' into text field '//android.widget.EditText[@resource-id="com.example.myapplication:id/password"]'</msg>
-<msg time="2025-01-29T17:28:32.625463" level="INFO">xpath criteria: //android.widget.EditText[@resource-id="com.example.myapplication:id/password"]</msg>
-<arg>locator=//android.widget.EditText[@resource-id="com.example.myapplication:id/password"]</arg>
-<arg>text=abc123</arg>
-<doc>Types the given `text` into text field identified by `locator`.</doc>
-<status status="PASS" start="2025-01-29T17:28:32.035997" elapsed="0.589765"/>
-</kw>
-<status status="PASS" start="2025-01-29T17:28:32.034991" elapsed="0.590949"/>
-</kw>
-<kw name="Click Sign In Button On Login Screen">
-<kw name="Click Element" owner="AppiumLibrary">
-<msg time="2025-01-29T17:28:32.629338" level="INFO">Clicking element '//android.widget.Button[@resource-id="com.example.myapplication:id/signIn"]'.</msg>
-<msg time="2025-01-29T17:28:33.228637" level="INFO">xpath criteria: //android.widget.Button[@resource-id="com.example.myapplication:id/signIn"]</msg>
-<arg>locator=//android.widget.Button[@resource-id="com.example.myapplication:id/signIn"]</arg>
-<doc>Click element identified by `locator`.</doc>
-<status status="PASS" start="2025-01-29T17:28:32.627263" elapsed="0.601547"/>
-</kw>
-<status status="PASS" start="2025-01-29T17:28:32.626470" elapsed="0.602580"/>
-</kw>
-<kw name="Verify User Successfully Login">
-<kw name="Wait Until Element Is Visible" owner="AppiumLibrary">
-<msg time="2025-01-29T17:28:33.996467" level="INFO">xpath criteria: //android.widget.TextView[@resource-id="com.example.myapplication:id/textView"]
-xpath criteria: //android.widget.TextView[@resource-id="com.example.myapplication:id/textView"]</msg>
-<arg>locator=//android.widget.TextView[@resource-id="com.example.myapplication:id/textView"]</arg>
-<doc>Waits until element specified with `locator` is visible.</doc>
-<status status="PASS" start="2025-01-29T17:28:33.230021" elapsed="0.766588"/>
-</kw>
-<status status="PASS" start="2025-01-29T17:28:33.229566" elapsed="0.767129"/>
-</kw>
-<kw name="Click Book Flight Button On Home Screen">
-<kw name="Click Element" owner="AppiumLibrary">
-<msg time="2025-01-29T17:28:33.999284" level="INFO">Clicking element '//android.widget.Button[@resource-id="com.example.myapplication:id/book"]'.</msg>
-<msg time="2025-01-29T17:28:34.127774" level="INFO">xpath criteria: //android.widget.Button[@resource-id="com.example.myapplication:id/book"]</msg>
-<arg>locator=//android.widget.Button[@resource-id="com.example.myapplication:id/book"]</arg>
-<doc>Click element identified by `locator`.</doc>
-<status status="PASS" start="2025-01-29T17:28:33.997580" elapsed="0.130339"/>
-</kw>
-<status status="PASS" start="2025-01-29T17:28:33.997288" elapsed="0.130828"/>
-</kw>
-<kw name="Verify Book Flight Screen Appears">
-<kw name="Wait Until Element Is Visible" owner="AppiumLibrary">
-<msg time="2025-01-29T17:28:35.654955" level="INFO">xpath criteria: //android.widget.TextView[@resource-id="com.example.myapplication:id/textView3"]
-xpath criteria: //android.widget.TextView[@resource-id="com.example.myapplication:id/textView3"]</msg>
-<arg>locator=//android.widget.TextView[@resource-id="com.example.myapplication:id/textView3"]</arg>
-<doc>Waits until element specified with `locator` is visible.</doc>
-<status status="PASS" start="2025-01-29T17:28:34.129692" elapsed="1.525399"/>
-</kw>
-<status status="PASS" start="2025-01-29T17:28:34.129394" elapsed="1.525788"/>
-</kw>
-<kw name="Click Round Trip Button On Book Flight Screen">
-<kw name="Click Element" owner="AppiumLibrary">
-<msg time="2025-01-29T17:28:35.657351" level="INFO">Clicking element '//android.support.v7.app.ActionBar.Tab[@content-desc="Round Trip"]'.</msg>
-<msg time="2025-01-29T17:28:35.921764" level="INFO">xpath criteria: //android.support.v7.app.ActionBar.Tab[@content-desc="Round Trip"]</msg>
-<arg>locator=//android.support.v7.app.ActionBar.Tab[@content-desc="Round Trip"]</arg>
-<doc>Click element identified by `locator`.</doc>
-<status status="PASS" start="2025-01-29T17:28:35.656087" elapsed="0.265890"/>
-</kw>
-<status status="PASS" start="2025-01-29T17:28:35.655673" elapsed="0.266580"/>
-</kw>
-<kw name="Click From City Combobox">
-<kw name="Wait Until Element Is Visible" owner="AppiumLibrary">
-<msg time="2025-01-29T17:28:36.426897" level="INFO">xpath criteria: //android.widget.Spinner[@resource-id="com.example.myapplication:id/spinnerFrom"]</msg>
-<arg>locator=//android.widget.Spinner[@resource-id="com.example.myapplication:id/spinnerFrom"]</arg>
-<doc>Waits until element specified with `locator` is visible.</doc>
-<status status="PASS" start="2025-01-29T17:28:35.923886" elapsed="0.503549"/>
-</kw>
-<kw name="Click Element" owner="AppiumLibrary">
-<msg time="2025-01-29T17:28:36.431247" level="INFO">Clicking element '//android.widget.Spinner[@resource-id="com.example.myapplication:id/spinnerFrom"]'.</msg>
-<msg time="2025-01-29T17:28:36.702737" level="INFO">xpath criteria: //android.widget.Spinner[@resource-id="com.example.myapplication:id/spinnerFrom"]</msg>
-<arg>locator=//android.widget.Spinner[@resource-id="com.example.myapplication:id/spinnerFrom"]</arg>
-<doc>Click element identified by `locator`.</doc>
-<status status="PASS" start="2025-01-29T17:28:36.428610" elapsed="0.274517"/>
-</kw>
-<status status="PASS" start="2025-01-29T17:28:35.923051" elapsed="0.780202"/>
-</kw>
-<kw name="Choose Toronto City">
-<kw name="Wait Until Element Is Visible" owner="AppiumLibrary">
-<msg time="2025-01-29T17:28:37.847089" level="INFO">xpath criteria: //android.widget.TextView[@resource-id="android:id/text1" and @text="Toronto"]
-xpath criteria: //android.widget.TextView[@resource-id="android:id/text1" and @text="Toronto"]</msg>
-<arg>locator=//android.widget.TextView[@resource-id="android:id/text1" and @text="Toronto"]</arg>
-<doc>Waits until element specified with `locator` is visible.</doc>
-<status status="PASS" start="2025-01-29T17:28:36.704464" elapsed="1.142765"/>
-</kw>
-<kw name="Click Element" owner="AppiumLibrary">
-<msg time="2025-01-29T17:28:37.848802" level="INFO">Clicking element '//android.widget.TextView[@resource-id="android:id/text1" and @text="Toronto"]'.</msg>
-<msg time="2025-01-29T17:28:38.826002" level="INFO">xpath criteria: //android.widget.TextView[@resource-id="android:id/text1" and @text="Toronto"]</msg>
-<arg>locator=//android.widget.TextView[@resource-id="android:id/text1" and @text="Toronto"]</arg>
-<doc>Click element identified by `locator`.</doc>
-<status status="PASS" start="2025-01-29T17:28:37.847367" elapsed="0.978736"/>
-</kw>
-<status status="PASS" start="2025-01-29T17:28:36.703723" elapsed="2.122501"/>
-</kw>
-<kw name="Verify Toronto City Appears">
-<kw name="Wait Until Element Is Visible" owner="AppiumLibrary">
-<msg time="2025-01-29T17:28:38.926981" level="INFO">xpath criteria: //android.widget.TextView[@resource-id="android:id/text1" and @text="Toronto"]</msg>
-<arg>locator=//android.widget.TextView[@resource-id="android:id/text1" and @text="Toronto"]</arg>
-<doc>Waits until element specified with `locator` is visible.</doc>
-<status status="PASS" start="2025-01-29T17:28:38.827364" elapsed="0.099784"/>
-</kw>
-<status status="PASS" start="2025-01-29T17:28:38.826892" elapsed="0.100576"/>
-</kw>
-<kw name="Click To City Combobox">
-<kw name="Wait Until Element Is Visible" owner="AppiumLibrary">
-<msg time="2025-01-29T17:28:39.087330" level="INFO">xpath criteria: //android.widget.Spinner[@resource-id="com.example.myapplication:id/spinnerTo"]</msg>
-<arg>locator=//android.widget.Spinner[@resource-id="com.example.myapplication:id/spinnerTo"]</arg>
-<doc>Waits until element specified with `locator` is visible.</doc>
-<status status="PASS" start="2025-01-29T17:28:38.928478" elapsed="0.159116"/>
-</kw>
-<kw name="Click Element" owner="AppiumLibrary">
-<msg time="2025-01-29T17:28:39.089347" level="INFO">Clicking element '//android.widget.Spinner[@resource-id="com.example.myapplication:id/spinnerTo"]'.</msg>
-<msg time="2025-01-29T17:28:39.215007" level="INFO">xpath criteria: //android.widget.Spinner[@resource-id="com.example.myapplication:id/spinnerTo"]</msg>
-<arg>locator=//android.widget.Spinner[@resource-id="com.example.myapplication:id/spinnerTo"]</arg>
-<doc>Click element identified by `locator`.</doc>
-<status status="PASS" start="2025-01-29T17:28:39.087895" elapsed="0.127216"/>
-</kw>
-<status status="PASS" start="2025-01-29T17:28:38.928175" elapsed="0.287041"/>
-</kw>
-<kw name="Choose 'Otawa' City">
-<kw name="Wait Until Element Is Visible" owner="AppiumLibrary">
-<msg time="2025-01-29T17:28:40.185615" level="INFO">xpath criteria: //android.widget.TextView[@resource-id="android:id/text1" and @text="Ottawa"]
-xpath criteria: //android.widget.TextView[@resource-id="android:id/text1" and @text="Ottawa"]</msg>
-<arg>locator=//android.widget.TextView[@resource-id="android:id/text1" and @text="Ottawa"]</arg>
-<doc>Waits until element specified with `locator` is visible.</doc>
-<status status="PASS" start="2025-01-29T17:28:39.216051" elapsed="0.969790"/>
-</kw>
-<kw name="Click Element" owner="AppiumLibrary">
-<msg time="2025-01-29T17:28:40.188508" level="INFO">Clicking element '//android.widget.TextView[@resource-id="android:id/text1" and @text="Ottawa"]'.</msg>
-<msg time="2025-01-29T17:28:40.898288" level="INFO">xpath criteria: //android.widget.TextView[@resource-id="android:id/text1" and @text="Ottawa"]</msg>
-<arg>locator=//android.widget.TextView[@resource-id="android:id/text1" and @text="Ottawa"]</arg>
-<doc>Click element identified by `locator`.</doc>
-<status status="PASS" start="2025-01-29T17:28:40.186273" elapsed="0.712145"/>
-</kw>
-<status status="PASS" start="2025-01-29T17:28:39.215647" elapsed="1.682902"/>
-</kw>
-<kw name="Verify 'Otawa' City Appears">
-<kw name="Wait Until Element Is Visible" owner="AppiumLibrary">
-<msg time="2025-01-29T17:28:41.004184" level="INFO">xpath criteria: //android.widget.TextView[@resource-id="android:id/text1" and @text="Ottawa"]</msg>
-<arg>locator=//android.widget.TextView[@resource-id="android:id/text1" and @text="Ottawa"]</arg>
-<doc>Waits until element specified with `locator` is visible.</doc>
-<status status="PASS" start="2025-01-29T17:28:40.899313" elapsed="0.105038"/>
-</kw>
-<status status="PASS" start="2025-01-29T17:28:40.899035" elapsed="0.105473"/>
-</kw>
-<kw name="Click Class Combobox">
-<kw name="Wait Until Element Is Visible" owner="AppiumLibrary">
-<msg time="2025-01-29T17:28:41.120823" level="INFO">xpath criteria: //android.widget.Spinner[@resource-id="com.example.myapplication:id/spinnerClass"]</msg>
-<arg>locator=//android.widget.Spinner[@resource-id="com.example.myapplication:id/spinnerClass"]</arg>
-<doc>Waits until element specified with `locator` is visible.</doc>
-<status status="PASS" start="2025-01-29T17:28:41.007203" elapsed="0.113922"/>
-</kw>
-<kw name="Click Element" owner="AppiumLibrary">
-<msg time="2025-01-29T17:28:41.124236" level="INFO">Clicking element '//android.widget.Spinner[@resource-id="com.example.myapplication:id/spinnerClass"]'.</msg>
-<msg time="2025-01-29T17:28:41.255345" level="INFO">xpath criteria: //android.widget.Spinner[@resource-id="com.example.myapplication:id/spinnerClass"]</msg>
-<arg>locator=//android.widget.Spinner[@resource-id="com.example.myapplication:id/spinnerClass"]</arg>
-<doc>Click element identified by `locator`.</doc>
-<status status="PASS" start="2025-01-29T17:28:41.121589" elapsed="0.133867"/>
-</kw>
-<status status="PASS" start="2025-01-29T17:28:41.006398" elapsed="0.249173"/>
-</kw>
-<kw name="Choose 'Business' Class">
-<kw name="Wait Until Element Is Visible" owner="AppiumLibrary">
-<msg time="2025-01-29T17:28:42.262622" level="INFO">xpath criteria: //android.widget.TextView[@resource-id="android:id/text1" and @text="Business"]
-xpath criteria: //android.widget.TextView[@resource-id="android:id/text1" and @text="Business"]</msg>
-<arg>locator=//android.widget.TextView[@resource-id="android:id/text1" and @text="Business"]</arg>
-<doc>Waits until element specified with `locator` is visible.</doc>
-<status status="PASS" start="2025-01-29T17:28:41.257045" elapsed="1.005823"/>
-</kw>
-<kw name="Click Element" owner="AppiumLibrary">
-<msg time="2025-01-29T17:28:42.264590" level="INFO">Clicking element '//android.widget.TextView[@resource-id="android:id/text1" and @text="Business"]'.</msg>
-<msg time="2025-01-29T17:28:43.034625" level="INFO">xpath criteria: //android.widget.TextView[@resource-id="android:id/text1" and @text="Business"]</msg>
-<arg>locator=//android.widget.TextView[@resource-id="android:id/text1" and @text="Business"]</arg>
-<doc>Click element identified by `locator`.</doc>
-<status status="PASS" start="2025-01-29T17:28:42.263224" elapsed="0.771586"/>
-</kw>
-<status status="PASS" start="2025-01-29T17:28:41.256191" elapsed="1.778798"/>
-</kw>
-<kw name="Verify 'Business' Class Appears">
-<kw name="Wait Until Element Is Visible" owner="AppiumLibrary">
-<msg time="2025-01-29T17:28:43.156883" level="INFO">xpath criteria: //android.widget.TextView[@resource-id="android:id/text1" and @text="Business"]</msg>
-<arg>locator=//android.widget.TextView[@resource-id="android:id/text1" and @text="Business"]</arg>
-<doc>Waits until element specified with `locator` is visible.</doc>
-<status status="PASS" start="2025-01-29T17:28:43.036213" elapsed="0.120784"/>
-</kw>
-<status status="PASS" start="2025-01-29T17:28:43.035648" elapsed="0.121811"/>
-</kw>
-<kw name="Click Start Date Picker">
-<kw name="Wait Until Element Is Visible" owner="AppiumLibrary">
-<msg time="2025-01-29T17:28:43.270901" level="INFO">xpath criteria: //android.widget.TextView[@resource-id="com.example.myapplication:id/textStartDate"]</msg>
-<arg>locator=//android.widget.TextView[@resource-id="com.example.myapplication:id/textStartDate"]</arg>
-<doc>Waits until element specified with `locator` is visible.</doc>
-<status status="PASS" start="2025-01-29T17:28:43.158325" elapsed="0.112801"/>
-</kw>
-<kw name="Click Element" owner="AppiumLibrary">
-<msg time="2025-01-29T17:28:43.273456" level="INFO">Clicking element '//android.widget.TextView[@resource-id="com.example.myapplication:id/textStartDate"]'.</msg>
-<msg time="2025-01-29T17:28:43.410647" level="INFO">xpath criteria: //android.widget.TextView[@resource-id="com.example.myapplication:id/textStartDate"]</msg>
-<arg>locator=//android.widget.TextView[@resource-id="com.example.myapplication:id/textStartDate"]</arg>
-<doc>Click element identified by `locator`.</doc>
-<status status="PASS" start="2025-01-29T17:28:43.271452" elapsed="0.139277"/>
-</kw>
-<status status="PASS" start="2025-01-29T17:28:43.157857" elapsed="0.252994"/>
-</kw>
-<kw name="Choose '8/1/2019' Date">
-<kw name="Wait Until Element Is Visible" owner="AppiumLibrary">
-<msg time="2025-01-29T17:28:44.418140" level="INFO">xpath criteria: //android.view.View[@resource-id="android:id/month_view"]
-xpath criteria: //android.view.View[@resource-id="android:id/month_view"]</msg>
-<arg>locator=//android.view.View[@resource-id="android:id/month_view"]</arg>
-<doc>Waits until element specified with `locator` is visible.</doc>
-<status status="PASS" start="2025-01-29T17:28:43.411770" elapsed="1.006476"/>
-</kw>
-<status status="PASS" start="2025-01-29T17:28:43.411303" elapsed="1.007103"/>
-</kw>
-<kw name="Click OK Button">
-<kw name="Wait Until Element Is Visible" owner="AppiumLibrary">
-<msg time="2025-01-29T17:28:44.571681" level="INFO">xpath criteria: //android.widget.Button[@resource-id="android:id/button1"]</msg>
-<arg>locator=//android.widget.Button[@resource-id="android:id/button1"]</arg>
-<doc>Waits until element specified with `locator` is visible.</doc>
-<status status="PASS" start="2025-01-29T17:28:44.419154" elapsed="0.152664"/>
-</kw>
-<kw name="Click Element" owner="AppiumLibrary">
-<msg time="2025-01-29T17:28:44.573258" level="INFO">Clicking element '//android.widget.Button[@resource-id="android:id/button1"]'.</msg>
-<msg time="2025-01-29T17:28:44.745076" level="INFO">xpath criteria: //android.widget.Button[@resource-id="android:id/button1"]</msg>
-<arg>locator=//android.widget.Button[@resource-id="android:id/button1"]</arg>
-<doc>Click element identified by `locator`.</doc>
-<status status="PASS" start="2025-01-29T17:28:44.571990" elapsed="0.173238"/>
-</kw>
-<status status="PASS" start="2025-01-29T17:28:44.418779" elapsed="0.326639"/>
-</kw>
-<kw name="Verify Today Date Appears">
-<kw name="Wait Until Element Is Visible" owner="AppiumLibrary">
-<msg time="2025-01-29T17:28:45.371995" level="INFO">xpath criteria: //android.widget.TextView[@resource-id="com.example.myapplication:id/textStartDate"]</msg>
-<arg>locator=//android.widget.TextView[@resource-id="com.example.myapplication:id/textStartDate"]</arg>
-<doc>Waits until element specified with `locator` is visible.</doc>
-<status status="PASS" start="2025-01-29T17:28:44.746467" elapsed="0.625716"/>
-</kw>
-<status status="PASS" start="2025-01-29T17:28:44.746012" elapsed="0.626356"/>
-</kw>
-<kw name="Click End Date Picker">
-<kw name="Wait Until Element Is Visible" owner="AppiumLibrary">
-<msg time="2025-01-29T17:28:45.473787" level="INFO">xpath criteria: //android.widget.TextView[@resource-id="com.example.myapplication:id/textEndDate"]</msg>
-<arg>locator=//android.widget.TextView[@resource-id="com.example.myapplication:id/textEndDate"]</arg>
-<doc>Waits until element specified with `locator` is visible.</doc>
-<status status="PASS" start="2025-01-29T17:28:45.373897" elapsed="0.100045"/>
-</kw>
-<kw name="Click Element" owner="AppiumLibrary">
-<msg time="2025-01-29T17:28:45.476167" level="INFO">Clicking element '//android.widget.TextView[@resource-id="com.example.myapplication:id/textEndDate"]'.</msg>
-<msg time="2025-01-29T17:28:45.584793" level="INFO">xpath criteria: //android.widget.TextView[@resource-id="com.example.myapplication:id/textEndDate"]</msg>
-<arg>locator=//android.widget.TextView[@resource-id="com.example.myapplication:id/textEndDate"]</arg>
-<doc>Click element identified by `locator`.</doc>
-<status status="PASS" start="2025-01-29T17:28:45.474142" elapsed="0.110782"/>
-</kw>
-<status status="PASS" start="2025-01-29T17:28:45.373223" elapsed="0.211811"/>
-</kw>
-<kw name="Choose '8/7/2019'">
-<kw name="Wait Until Element Is Visible" owner="AppiumLibrary">
-<msg time="2025-01-29T17:28:46.418014" level="INFO">xpath criteria: //android.view.View[@resource-id="android:id/month_view"]
-xpath criteria: //android.view.View[@resource-id="android:id/month_view"]</msg>
-<arg>locator=//android.view.View[@resource-id="android:id/month_view"]</arg>
-<doc>Waits until element specified with `locator` is visible.</doc>
-<status status="PASS" start="2025-01-29T17:28:45.586665" elapsed="0.831464"/>
-</kw>
-<kw name="Click Element" owner="AppiumLibrary">
-<msg time="2025-01-29T17:28:46.419696" level="INFO">Clicking element '//android.view.View[@resource-id="android:id/month_view"]'.</msg>
-<msg time="2025-01-29T17:28:47.226651" level="INFO">xpath criteria: //android.view.View[@resource-id="android:id/month_view"]</msg>
-<arg>locator=//android.view.View[@resource-id="android:id/month_view"]</arg>
-<doc>Click element identified by `locator`.</doc>
-<status status="PASS" start="2025-01-29T17:28:46.418343" elapsed="0.808808"/>
-</kw>
-<status status="PASS" start="2025-01-29T17:28:45.586149" elapsed="1.641326"/>
-</kw>
-<kw name="Click Button OK">
-<kw name="Wait Until Element Is Visible" owner="AppiumLibrary">
-<msg time="2025-01-29T17:28:47.595816" level="INFO">xpath criteria: //android.widget.Button[@resource-id="android:id/button1"]</msg>
-<arg>locator=//android.widget.Button[@resource-id="android:id/button1"]</arg>
-<doc>Waits until element specified with `locator` is visible.</doc>
-<status status="PASS" start="2025-01-29T17:28:47.229249" elapsed="0.366652"/>
-</kw>
-<kw name="Click Element" owner="AppiumLibrary">
-<msg time="2025-01-29T17:28:47.597285" level="INFO">Clicking element '//android.widget.Button[@resource-id="android:id/button1"]'.</msg>
-<msg time="2025-01-29T17:28:47.810825" level="INFO">xpath criteria: //android.widget.Button[@resource-id="android:id/button1"]</msg>
-<arg>locator=//android.widget.Button[@resource-id="android:id/button1"]</arg>
-<doc>Click element identified by `locator`.</doc>
-<status status="PASS" start="2025-01-29T17:28:47.596053" elapsed="0.215598"/>
-</kw>
-<status status="PASS" start="2025-01-29T17:28:47.228472" elapsed="0.583505"/>
-</kw>
-<kw name="Verify 8/1/2019 Date Appears">
-<kw name="Wait Until Element Is Visible" owner="AppiumLibrary">
-<msg time="2025-01-29T17:28:48.413770" level="INFO">xpath criteria: //android.widget.TextView[@resource-id="com.example.myapplication:id/textEndDate"]</msg>
-<arg>locator=//android.widget.TextView[@resource-id="com.example.myapplication:id/textEndDate"]</arg>
-<doc>Waits until element specified with `locator` is visible.</doc>
-<status status="PASS" start="2025-01-29T17:28:47.813948" elapsed="0.600018"/>
-</kw>
-<status status="PASS" start="2025-01-29T17:28:47.812917" elapsed="0.601214"/>
-</kw>
-<kw name="Click Flight Type Radio Button">
-<kw name="Wait Until Element Is Visible" owner="AppiumLibrary">
-<msg time="2025-01-29T17:28:48.489108" level="INFO">xpath criteria: //android.widget.RadioButton[@resource-id="com.example.myapplication:id/radioButtonFlight"]</msg>
-<arg>locator=//android.widget.RadioButton[@resource-id="com.example.myapplication:id/radioButtonFlight"]</arg>
-<doc>Waits until element specified with `locator` is visible.</doc>
-<status status="PASS" start="2025-01-29T17:28:48.414858" elapsed="0.074320"/>
-</kw>
-<kw name="Click Element" owner="AppiumLibrary">
-<msg time="2025-01-29T17:28:48.490288" level="INFO">Clicking element '//android.widget.RadioButton[@resource-id="com.example.myapplication:id/radioButtonFlight"]'.</msg>
-<msg time="2025-01-29T17:28:48.594991" level="INFO">xpath criteria: //android.widget.RadioButton[@resource-id="com.example.myapplication:id/radioButtonFlight"]</msg>
-<arg>locator=//android.widget.RadioButton[@resource-id="com.example.myapplication:id/radioButtonFlight"]</arg>
-<doc>Click element identified by `locator`.</doc>
-<status status="PASS" start="2025-01-29T17:28:48.489458" elapsed="0.105756"/>
-</kw>
-<status status="PASS" start="2025-01-29T17:28:48.414528" elapsed="0.180892"/>
-</kw>
-<kw name="Click Book">
-<kw name="Wait Until Element Is Visible" owner="AppiumLibrary">
-<msg time="2025-01-29T17:28:49.224731" level="INFO">xpath criteria: //android.widget.Button[@resource-id="com.example.myapplication:id/book_flight"]</msg>
-<arg>locator=//android.widget.Button[@resource-id="com.example.myapplication:id/book_flight"]</arg>
-<doc>Waits until element specified with `locator` is visible.</doc>
-<status status="PASS" start="2025-01-29T17:28:48.596865" elapsed="0.627950"/>
-</kw>
-<kw name="Click Element" owner="AppiumLibrary">
-<msg time="2025-01-29T17:28:49.226328" level="INFO">Clicking element '//android.widget.Button[@resource-id="com.example.myapplication:id/book_flight"]'.</msg>
-<msg time="2025-01-29T17:28:50.098469" level="INFO">xpath criteria: //android.widget.Button[@resource-id="com.example.myapplication:id/book_flight"]</msg>
-<arg>locator=//android.widget.Button[@resource-id="com.example.myapplication:id/book_flight"]</arg>
-<doc>Click element identified by `locator`.</doc>
-<status status="PASS" start="2025-01-29T17:28:49.224951" elapsed="0.873657"/>
-</kw>
-<status status="PASS" start="2025-01-29T17:28:48.596230" elapsed="1.502509"/>
-</kw>
-<kw name="Verify Book Flight Successfully Confirm Button">
-<kw name="Wait Until Element Is Visible" owner="AppiumLibrary">
-<msg time="2025-01-29T17:28:50.227526" level="INFO">xpath criteria: //android.widget.FrameLayout[@resource-id="android:id/content"]/android.view.ViewGroup</msg>
-<arg>locator=//android.widget.FrameLayout[@resource-id="android:id/content"]/android.view.ViewGroup</arg>
-<doc>Waits until element specified with `locator` is visible.</doc>
-<status status="PASS" start="2025-01-29T17:28:50.099970" elapsed="0.127722"/>
-</kw>
-<status status="PASS" start="2025-01-29T17:28:50.099393" elapsed="0.128620"/>
-</kw>
-<kw name="Click Confirm Button">
-<kw name="Wait Until Element Is Visible" owner="AppiumLibrary">
-<msg time="2025-01-29T17:28:50.314761" level="INFO">xpath criteria: //android.widget.Button[@resource-id="com.example.myapplication:id/confirm_order"]</msg>
-<arg>locator=//android.widget.Button[@resource-id="com.example.myapplication:id/confirm_order"]</arg>
-<doc>Waits until element specified with `locator` is visible.</doc>
-<status status="PASS" start="2025-01-29T17:28:50.229435" elapsed="0.085537"/>
-</kw>
-<kw name="Click Element" owner="AppiumLibrary">
-<msg time="2025-01-29T17:28:50.317929" level="INFO">Clicking element '//android.widget.Button[@resource-id="com.example.myapplication:id/confirm_order"]'.</msg>
-<msg time="2025-01-29T17:28:50.452714" level="INFO">xpath criteria: //android.widget.Button[@resource-id="com.example.myapplication:id/confirm_order"]</msg>
-<arg>locator=//android.widget.Button[@resource-id="com.example.myapplication:id/confirm_order"]</arg>
-<doc>Click element identified by `locator`.</doc>
-<status status="PASS" start="2025-01-29T17:28:50.315398" elapsed="0.137626"/>
-</kw>
-<status status="PASS" start="2025-01-29T17:28:50.228747" elapsed="0.224469"/>
-</kw>
-<kw name="Verify Flight Booked Successfully">
-<kw name="Wait Until Element Is Visible" owner="AppiumLibrary">
-<msg time="2025-01-29T17:28:51.187021" level="INFO">xpath criteria: //android.widget.CheckedTextView[@resource-id="com.example.myapplication:id/checkedTextView"]
-xpath criteria: //android.widget.CheckedTextView[@resource-id="com.example.myapplication:id/checkedTextView"]</msg>
-<arg>locator=//android.widget.CheckedTextView[@resource-id="com.example.myapplication:id/checkedTextView"]</arg>
-<doc>Waits until element specified with `locator` is visible.</doc>
-<status status="PASS" start="2025-01-29T17:28:50.455328" elapsed="0.731885"/>
-</kw>
-<kw name="Click Element" owner="AppiumLibrary">
-<msg time="2025-01-29T17:28:51.189971" level="INFO">Clicking element '//android.widget.CheckedTextView[@resource-id="com.example.myapplication:id/checkedTextView"]'.</msg>
-<msg time="2025-01-29T17:28:51.359721" level="INFO">xpath criteria: //android.widget.CheckedTextView[@resource-id="com.example.myapplication:id/checkedTextView"]</msg>
-<arg>locator=//android.widget.CheckedTextView[@resource-id="com.example.myapplication:id/checkedTextView"]</arg>
-<doc>Click element identified by `locator`.</doc>
-<status status="PASS" start="2025-01-29T17:28:51.187601" elapsed="0.172240"/>
-</kw>
-<status status="PASS" start="2025-01-29T17:28:50.454705" elapsed="0.905248"/>
-</kw>
-<kw name="Close Flight Application">
-<kw name="Close Application" owner="AppiumLibrary">
-<doc>Closes the current application and also close webdriver session.</doc>
-<status status="PASS" start="2025-01-29T17:28:51.362573" elapsed="0.691091"/>
-</kw>
-<status status="PASS" start="2025-01-29T17:28:51.362100" elapsed="0.691797"/>
-</kw>
-<status status="PASS" start="2025-01-29T17:27:55.629998" elapsed="56.424715"/>
-</test>
-<status status="PASS" start="2025-01-29T17:27:55.617132" elapsed="56.442611"/>
-</suite>
-<suite id="s1-s3" name="Login" source="C:\SanberCode\Sanber63-Robot-Framework-Kelompok-4\Suites\login.robot">
-<test id="s1-s3-t1" name="User should be able to login with valid data" line="16">
+<suite id="s1-s2" name="Login" source="C:\SanberCode\Sanber63-Robot-Framework-Kelompok-4\Suites\login.robot">
+<test id="s1-s2-t1" name="User should be able to login with valid data" line="16">
 <kw name="Run Keywords" owner="BuiltIn" type="SETUP">
 <kw name="Open Flight Application" owner="base">
 <kw name="Open Application" owner="AppiumLibrary">
 <kw name="Capture Page Screenshot" owner="AppiumLibrary">
-<msg time="2025-01-29T17:28:52.349671" level="FAIL">No application is open</msg>
+<msg time="2025-01-30T21:42:14.627889" level="FAIL">No application is open</msg>
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<status status="FAIL" start="2025-01-29T17:28:52.347764" elapsed="0.008715">No application is open</status>
+<status status="FAIL" start="2025-01-30T21:42:14.627676" elapsed="0.001885">No application is open</status>
 </kw>
-<msg time="2025-01-29T17:28:52.359387" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg time="2025-01-29T17:28:52.361136" level="FAIL">WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Unable to find an active device or emulator with OS 14. The following are available: emulator-5554 (12)
+<msg time="2025-01-30T21:42:14.630574" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg time="2025-01-30T21:42:14.631361" level="FAIL">WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Unable to find an active device or emulator with OS 14. The following are available: emulator-5554 (12)
 Stacktrace:
 UnknownError: An unknown server-side error occurred while processing the command. Original error: Unable to find an active device or emulator with OS 14. The following are available: emulator-5554 (12)
     at getResponseForW3CError (C:\Users\Reza Paramarta\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
@@ -549,13 +107,13 @@ Please check https://appium.io/docs/en/2.1/cli/args/
 | remote_url          | Yes    | Appium server url |
 | alias               | no     | alias             |
 | strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
-<status status="FAIL" start="2025-01-29T17:28:52.103530" elapsed="0.260376">WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Unable to find an active device or emulator with OS 14. The following are available: emulator-5554 (12)
+<status status="FAIL" start="2025-01-30T21:42:14.435671" elapsed="0.196831">WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Unable to find an active device or emulator with OS 14. The following are available: emulator-5554 (12)
 Stacktrace:
 UnknownError: An unknown server-side error occurred while processing the command. Original error: Unable to find an active device or emulator with OS 14. The following are available: emulator-5554 (12)
     at getResponseForW3CError (C:\Users\Reza Paramarta\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
     at asyncHandler (C:\Users\Reza Paramarta\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)</status>
 </kw>
-<status status="FAIL" start="2025-01-29T17:28:52.102609" elapsed="0.262237">WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Unable to find an active device or emulator with OS 14. The following are available: emulator-5554 (12)
+<status status="FAIL" start="2025-01-30T21:42:14.435541" elapsed="0.197081">WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Unable to find an active device or emulator with OS 14. The following are available: emulator-5554 (12)
 Stacktrace:
 UnknownError: An unknown server-side error occurred while processing the command. Original error: Unable to find an active device or emulator with OS 14. The following are available: emulator-5554 (12)
     at getResponseForW3CError (C:\Users\Reza Paramarta\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
@@ -565,7 +123,7 @@ UnknownError: An unknown server-side error occurred while processing the command
 <arg>AND</arg>
 <arg>Login With Valid Data</arg>
 <doc>Executes all the given keywords in a sequence.</doc>
-<status status="FAIL" start="2025-01-29T17:28:52.101926" elapsed="0.263195">WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Unable to find an active device or emulator with OS 14. The following are available: emulator-5554 (12)
+<status status="FAIL" start="2025-01-30T21:42:14.435377" elapsed="0.197330">WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Unable to find an active device or emulator with OS 14. The following are available: emulator-5554 (12)
 Stacktrace:
 UnknownError: An unknown server-side error occurred while processing the command. Original error: Unable to find an active device or emulator with OS 14. The following are available: emulator-5554 (12)
     at getResponseForW3CError (C:\Users\Reza Paramarta\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
@@ -574,18 +132,18 @@ UnknownError: An unknown server-side error occurred while processing the command
 <kw name="Close Flight Application" owner="base" type="TEARDOWN">
 <kw name="Close Application" owner="AppiumLibrary">
 <kw name="Capture Page Screenshot" owner="AppiumLibrary">
-<msg time="2025-01-29T17:28:52.368033" level="FAIL">No application is open</msg>
+<msg time="2025-01-30T21:42:14.633636" level="FAIL">No application is open</msg>
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<status status="FAIL" start="2025-01-29T17:28:52.367589" elapsed="0.003838">No application is open</status>
+<status status="FAIL" start="2025-01-30T21:42:14.633513" elapsed="0.001016">No application is open</status>
 </kw>
-<msg time="2025-01-29T17:28:52.373669" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg time="2025-01-29T17:28:52.375284" level="FAIL">No application is open</msg>
+<msg time="2025-01-30T21:42:14.635340" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg time="2025-01-30T21:42:14.635947" level="FAIL">No application is open</msg>
 <doc>Closes the current application and also close webdriver session.</doc>
-<status status="FAIL" start="2025-01-29T17:28:52.367182" elapsed="0.010726">No application is open</status>
+<status status="FAIL" start="2025-01-30T21:42:14.633408" elapsed="0.003046">No application is open</status>
 </kw>
-<status status="FAIL" start="2025-01-29T17:28:52.366355" elapsed="0.011984">No application is open</status>
+<status status="FAIL" start="2025-01-30T21:42:14.633181" elapsed="0.003360">No application is open</status>
 </kw>
-<status status="FAIL" start="2025-01-29T17:28:52.100598" elapsed="0.278338">Setup failed:
+<status status="FAIL" start="2025-01-30T21:42:14.434691" elapsed="0.202112">Setup failed:
 WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Unable to find an active device or emulator with OS 14. The following are available: emulator-5554 (12)
 Stacktrace:
 UnknownError: An unknown server-side error occurred while processing the command. Original error: Unable to find an active device or emulator with OS 14. The following are available: emulator-5554 (12)
@@ -595,7 +153,84 @@ UnknownError: An unknown server-side error occurred while processing the command
 Also teardown failed:
 No application is open</status>
 </test>
-<status status="FAIL" start="2025-01-29T17:28:52.065149" elapsed="0.317506"/>
+<status status="FAIL" start="2025-01-30T21:42:14.428862" elapsed="0.209797"/>
+</suite>
+<suite id="s1-s3" name="roundTrip" source="C:\SanberCode\Sanber63-Robot-Framework-Kelompok-4\Suites\roundTrip.robot">
+<test id="s1-s3-t1" name="User should be able book a flight" line="17">
+<kw name="Run Keywords" owner="BuiltIn" type="SETUP">
+<kw name="Open Flight Application" owner="base">
+<kw name="Open Application" owner="AppiumLibrary">
+<kw name="Capture Page Screenshot" owner="AppiumLibrary">
+<msg time="2025-01-30T21:42:14.864399" level="FAIL">No application is open</msg>
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<status status="FAIL" start="2025-01-30T21:42:14.864131" elapsed="0.002422">No application is open</status>
+</kw>
+<msg time="2025-01-30T21:42:14.867684" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg time="2025-01-30T21:42:14.868508" level="FAIL">WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Unable to find an active device or emulator with OS 14. The following are available: emulator-5554 (12)
+Stacktrace:
+UnknownError: An unknown server-side error occurred while processing the command. Original error: Unable to find an active device or emulator with OS 14. The following are available: emulator-5554 (12)
+    at getResponseForW3CError (C:\Users\Reza Paramarta\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\Reza Paramarta\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)</msg>
+<arg>remote_url=${REMOTE_URL}</arg>
+<arg>platformName=${PLATFORM_NAME}</arg>
+<arg>platformVersion=${PLATFORM_VERSION}</arg>
+<arg>deviceName=${DEVICE_NAME}</arg>
+<arg>appPackage=${APP_PAVKAGE}</arg>
+<arg>appActivity=${APP_ACTIVITY}</arg>
+<doc>Opens a new application to given Appium server.
+Capabilities of appium server, Android and iOS,
+Please check https://appium.io/docs/en/2.1/cli/args/
+| *Option*            | *Man.* | *Description*     |
+| remote_url          | Yes    | Appium server url |
+| alias               | no     | alias             |
+| strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
+<status status="FAIL" start="2025-01-30T21:42:14.654189" elapsed="0.215455">WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Unable to find an active device or emulator with OS 14. The following are available: emulator-5554 (12)
+Stacktrace:
+UnknownError: An unknown server-side error occurred while processing the command. Original error: Unable to find an active device or emulator with OS 14. The following are available: emulator-5554 (12)
+    at getResponseForW3CError (C:\Users\Reza Paramarta\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\Reza Paramarta\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)</status>
+</kw>
+<status status="FAIL" start="2025-01-30T21:42:14.653960" elapsed="0.215810">WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Unable to find an active device or emulator with OS 14. The following are available: emulator-5554 (12)
+Stacktrace:
+UnknownError: An unknown server-side error occurred while processing the command. Original error: Unable to find an active device or emulator with OS 14. The following are available: emulator-5554 (12)
+    at getResponseForW3CError (C:\Users\Reza Paramarta\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\Reza Paramarta\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)</status>
+</kw>
+<arg>Open Flight Application</arg>
+<arg>AND</arg>
+<arg>Login With Valid Data</arg>
+<doc>Executes all the given keywords in a sequence.</doc>
+<status status="FAIL" start="2025-01-30T21:42:14.653727" elapsed="0.216091">WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Unable to find an active device or emulator with OS 14. The following are available: emulator-5554 (12)
+Stacktrace:
+UnknownError: An unknown server-side error occurred while processing the command. Original error: Unable to find an active device or emulator with OS 14. The following are available: emulator-5554 (12)
+    at getResponseForW3CError (C:\Users\Reza Paramarta\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\Reza Paramarta\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)</status>
+</kw>
+<kw name="Close Flight Application" owner="base" type="TEARDOWN">
+<kw name="Close Application" owner="AppiumLibrary">
+<kw name="Capture Page Screenshot" owner="AppiumLibrary">
+<msg time="2025-01-30T21:42:14.870651" level="FAIL">No application is open</msg>
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<status status="FAIL" start="2025-01-30T21:42:14.870531" elapsed="0.001491">No application is open</status>
+</kw>
+<msg time="2025-01-30T21:42:14.873018" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg time="2025-01-30T21:42:14.873913" level="FAIL">No application is open</msg>
+<doc>Closes the current application and also close webdriver session.</doc>
+<status status="FAIL" start="2025-01-30T21:42:14.870418" elapsed="0.004889">No application is open</status>
+</kw>
+<status status="FAIL" start="2025-01-30T21:42:14.870212" elapsed="0.005393">No application is open</status>
+</kw>
+<status status="FAIL" start="2025-01-30T21:42:14.652695" elapsed="0.223391">Setup failed:
+WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Unable to find an active device or emulator with OS 14. The following are available: emulator-5554 (12)
+Stacktrace:
+UnknownError: An unknown server-side error occurred while processing the command. Original error: Unable to find an active device or emulator with OS 14. The following are available: emulator-5554 (12)
+    at getResponseForW3CError (C:\Users\Reza Paramarta\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\Reza Paramarta\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+
+Also teardown failed:
+No application is open</status>
+</test>
+<status status="FAIL" start="2025-01-30T21:42:14.640741" elapsed="0.237678"/>
 </suite>
 <suite id="s1-s4" name="Search" source="C:\SanberCode\Sanber63-Robot-Framework-Kelompok-4\Suites\search.robot">
 <test id="s1-s4-t1" name="User should be able to Search Flight Data" line="17">
@@ -603,12 +238,12 @@ No application is open</status>
 <kw name="Open Flight Application" owner="base">
 <kw name="Open Application" owner="AppiumLibrary">
 <kw name="Capture Page Screenshot" owner="AppiumLibrary">
-<msg time="2025-01-29T17:28:52.652301" level="FAIL">No application is open</msg>
+<msg time="2025-01-30T21:42:15.151898" level="FAIL">No application is open</msg>
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<status status="FAIL" start="2025-01-29T17:28:52.652112" elapsed="0.003187">No application is open</status>
+<status status="FAIL" start="2025-01-30T21:42:15.151650" elapsed="0.001900">No application is open</status>
 </kw>
-<msg time="2025-01-29T17:28:52.657219" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg time="2025-01-29T17:28:52.658192" level="FAIL">WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Unable to find an active device or emulator with OS 14. The following are available: emulator-5554 (12)
+<msg time="2025-01-30T21:42:15.154602" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg time="2025-01-30T21:42:15.155406" level="FAIL">WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Unable to find an active device or emulator with OS 14. The following are available: emulator-5554 (12)
 Stacktrace:
 UnknownError: An unknown server-side error occurred while processing the command. Original error: Unable to find an active device or emulator with OS 14. The following are available: emulator-5554 (12)
     at getResponseForW3CError (C:\Users\Reza Paramarta\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
@@ -626,13 +261,13 @@ Please check https://appium.io/docs/en/2.1/cli/args/
 | remote_url          | Yes    | Appium server url |
 | alias               | no     | alias             |
 | strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
-<status status="FAIL" start="2025-01-29T17:28:52.442581" elapsed="0.218128">WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Unable to find an active device or emulator with OS 14. The following are available: emulator-5554 (12)
+<status status="FAIL" start="2025-01-30T21:42:14.913639" elapsed="0.243009">WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Unable to find an active device or emulator with OS 14. The following are available: emulator-5554 (12)
 Stacktrace:
 UnknownError: An unknown server-side error occurred while processing the command. Original error: Unable to find an active device or emulator with OS 14. The following are available: emulator-5554 (12)
     at getResponseForW3CError (C:\Users\Reza Paramarta\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
     at asyncHandler (C:\Users\Reza Paramarta\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)</status>
 </kw>
-<status status="FAIL" start="2025-01-29T17:28:52.442123" elapsed="0.218870">WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Unable to find an active device or emulator with OS 14. The following are available: emulator-5554 (12)
+<status status="FAIL" start="2025-01-30T21:42:14.913270" elapsed="0.243615">WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Unable to find an active device or emulator with OS 14. The following are available: emulator-5554 (12)
 Stacktrace:
 UnknownError: An unknown server-side error occurred while processing the command. Original error: Unable to find an active device or emulator with OS 14. The following are available: emulator-5554 (12)
     at getResponseForW3CError (C:\Users\Reza Paramarta\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
@@ -642,7 +277,7 @@ UnknownError: An unknown server-side error occurred while processing the command
 <arg>AND</arg>
 <arg>Login With Valid Data</arg>
 <doc>Executes all the given keywords in a sequence.</doc>
-<status status="FAIL" start="2025-01-29T17:28:52.441422" elapsed="0.220311">WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Unable to find an active device or emulator with OS 14. The following are available: emulator-5554 (12)
+<status status="FAIL" start="2025-01-30T21:42:14.912935" elapsed="0.244040">WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Unable to find an active device or emulator with OS 14. The following are available: emulator-5554 (12)
 Stacktrace:
 UnknownError: An unknown server-side error occurred while processing the command. Original error: Unable to find an active device or emulator with OS 14. The following are available: emulator-5554 (12)
     at getResponseForW3CError (C:\Users\Reza Paramarta\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
@@ -651,18 +286,18 @@ UnknownError: An unknown server-side error occurred while processing the command
 <kw name="Close Flight Application" owner="base" type="TEARDOWN">
 <kw name="Close Application" owner="AppiumLibrary">
 <kw name="Capture Page Screenshot" owner="AppiumLibrary">
-<msg time="2025-01-29T17:28:52.663551" level="FAIL">No application is open</msg>
+<msg time="2025-01-30T21:42:15.158168" level="FAIL">No application is open</msg>
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<status status="FAIL" start="2025-01-29T17:28:52.663127" elapsed="0.002547">No application is open</status>
+<status status="FAIL" start="2025-01-30T21:42:15.158013" elapsed="0.001709">No application is open</status>
 </kw>
-<msg time="2025-01-29T17:28:52.667584" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg time="2025-01-29T17:28:52.668573" level="FAIL">No application is open</msg>
+<msg time="2025-01-30T21:42:15.161043" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg time="2025-01-30T21:42:15.162103" level="FAIL">No application is open</msg>
 <doc>Closes the current application and also close webdriver session.</doc>
-<status status="FAIL" start="2025-01-29T17:28:52.662838" elapsed="0.006733">No application is open</status>
+<status status="FAIL" start="2025-01-30T21:42:15.157839" elapsed="0.006300">No application is open</status>
 </kw>
-<status status="FAIL" start="2025-01-29T17:28:52.662391" elapsed="0.007382">No application is open</status>
+<status status="FAIL" start="2025-01-30T21:42:15.157511" elapsed="0.006897">No application is open</status>
 </kw>
-<status status="FAIL" start="2025-01-29T17:28:52.440213" elapsed="0.229985">Setup failed:
+<status status="FAIL" start="2025-01-30T21:42:14.911965" elapsed="0.252873">Setup failed:
 WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Unable to find an active device or emulator with OS 14. The following are available: emulator-5554 (12)
 Stacktrace:
 UnknownError: An unknown server-side error occurred while processing the command. Original error: Unable to find an active device or emulator with OS 14. The following are available: emulator-5554 (12)
@@ -672,30 +307,32 @@ UnknownError: An unknown server-side error occurred while processing the command
 Also teardown failed:
 No application is open</status>
 </test>
-<status status="FAIL" start="2025-01-29T17:28:52.384193" elapsed="0.292968"/>
+<status status="FAIL" start="2025-01-30T21:42:14.880217" elapsed="0.286927"/>
 </suite>
-<status status="FAIL" start="2025-01-29T17:27:54.947406" elapsed="57.732449"/>
+<status status="FAIL" start="2025-01-30T21:42:13.856629" elapsed="1.311986"/>
 </suite>
 <statistics>
 <total>
-<stat pass="1" fail="3" skip="0">All Tests</stat>
+<stat pass="0" fail="4" skip="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat name="Suites" id="s1" pass="1" fail="3" skip="0">Suites</stat>
+<stat name="Suites" id="s1" pass="0" fail="4" skip="0">Suites</stat>
 <stat name="Booking" id="s1-s1" pass="0" fail="1" skip="0">Suites.Booking</stat>
-<stat name="bookRoundTrip" id="s1-s2" pass="1" fail="0" skip="0">Suites.bookRoundTrip</stat>
-<stat name="Login" id="s1-s3" pass="0" fail="1" skip="0">Suites.Login</stat>
+<stat name="Login" id="s1-s2" pass="0" fail="1" skip="0">Suites.Login</stat>
+<stat name="roundTrip" id="s1-s3" pass="0" fail="1" skip="0">Suites.roundTrip</stat>
 <stat name="Search" id="s1-s4" pass="0" fail="1" skip="0">Suites.Search</stat>
 </suite>
 </statistics>
 <errors>
-<msg time="2025-01-29T17:27:55.598944" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg time="2025-01-29T17:27:55.608060" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg time="2025-01-29T17:28:52.359387" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg time="2025-01-29T17:28:52.373669" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg time="2025-01-29T17:28:52.657219" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg time="2025-01-29T17:28:52.667584" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg time="2025-01-30T21:42:14.416474" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg time="2025-01-30T21:42:14.422948" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg time="2025-01-30T21:42:14.630574" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg time="2025-01-30T21:42:14.635340" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg time="2025-01-30T21:42:14.867684" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg time="2025-01-30T21:42:14.873018" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg time="2025-01-30T21:42:15.154602" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg time="2025-01-30T21:42:15.161043" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
 </errors>
 </robot>
